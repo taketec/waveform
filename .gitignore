@@ -1,2 +1,3 @@
 /node_modules
 /waveform/node_modules
+.env
