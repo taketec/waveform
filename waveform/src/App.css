@@ -1,0 +1,85 @@
+/* Container for the whole app */
+div {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7fa; /* Light grayish background */
+  color: #333; /* Dark text for readability */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Heading for the title */
+h1 {
+  font-size: 2rem;
+  color: #2a4d7f; /* Light blue color */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Styling for the current word display */
+h3 {
+  font-size: 1.2rem;
+  color: #4e8eb4; /* Slightly darker blue */
+  text-align: center;
+  font-weight: bold;
+  margin-top: 3px;
+}
+
+/* File input and button styling */
+input[type="file"] {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #4e8eb4; /* Soft blue */
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #366a8f; /* Darker blue for hover effect */
+}
+
+/* Audio player controls */
+audio {
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+/* Styling for the audio container */
+div > div {
+  margin-top: 20px;
+}
+
+/* Styling for the entire app container */
+.container {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff; /* White background for the app */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Make sure everything is centered */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f7fa;
+  margin: 0;
+}
